@@ -28,10 +28,16 @@ Before you begin, ensure you have met the following requirements:
    cd codematic-youtube-backennd
    ```
 
-3. Install dependencies using Pipenv:
+3. Install dependencies using Poetry:
    ```
    pip install poetry
    poetry install
+   ```
+   --OR--
+
+   Install using requirements.txt with preffered dependency manager (pip)
+   ```
+   pip install -r requirements.txt
    ```
 
 ## Running the API
